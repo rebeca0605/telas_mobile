@@ -39,7 +39,7 @@ export default function ScreenLogin() {
 
                 <View className='flex-col gap-10'>
                     <TextInput
-                        placeholder="E-mail"
+                        placeholder="E-mailas"
                         placeholderTextColor="#9c9c9c"
                         selectionColor="#9334ea"
                         cursorColor="#9334ea"
