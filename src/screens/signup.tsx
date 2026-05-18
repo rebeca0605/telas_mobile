@@ -7,7 +7,7 @@ import InputDefault from '../components/inputDefault';
 
 const statusBarHeight = Constants.statusBarHeight;
 
-export default function ScreenLogin() {
+export default function ScreenSignUp() {
     return (
         <ScrollView
             className="flex-1 bg-white"
@@ -24,22 +24,25 @@ export default function ScreenLogin() {
                 </Text>
 
                 <View className='flex-col gap-10'>
+                    <InputDefault placeholder='Nome'
+                    ></InputDefault>
+
                     <InputDefault placeholder='E-mail'
-                        keyboardType="email-address"
-                        autoCapitalize="none"
                     ></InputDefault>
 
                     <InputDefault
                         placeholder="Senha"
                         isPassword={true}
                     />
-                    <Text className="text-center text-darker-purple italic underline">
-                        Esqueceu a senha
-                    </Text>
 
-                    <ButtonDefault title='Entre'></ButtonDefault>
+                    <InputDefault
+                        placeholder="Confirmar senha"
+                        isPassword={true}
+                    />
 
-        
+                    <ButtonDefault title='Cadastre-se'></ButtonDefault>
+
+
                 </View>
             </View>
 
