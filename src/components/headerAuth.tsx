@@ -20,7 +20,7 @@ export default function HeaderAuth() {
                     style={{ width: 102 }}></Image>
 
                 <View className="flex items-end justify-center">
-                    <Text className="text-darker-purple font-poppins uppercase text-4xl">syncro</Text>
+                    <Text className="text-darker-purple font-poppins uppercase text-4xl">syncrogvn</Text>
                     <Text className="text-darker-purple font-poppins uppercase text-4xl">baby</Text>
                 </View>
             </View>
