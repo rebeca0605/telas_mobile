@@ -1,10 +1,11 @@
+
 import { ScrollView } from 'react-native';
-import ScreenLogin from '../screens/login';
+import ScreenSignUp from '../screens/signup';
 
 export default function Home() {
   return (
     <ScrollView>
-      <ScreenLogin></ScreenLogin>
+      <ScreenSignUp></ScreenSignUp>
     </ScrollView>
   );
 }
